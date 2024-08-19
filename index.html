@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventos</title>
+    <title>Página de eventos</title>
+    <style>
+        #contenedor {
+            padding: 5px;
+            background-color: green;
+        }
+        #boton-salidas {
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    <h1>pagina de eventos</h1>
-    <button id="boton-salidas">Saludar</button>
+    <h1>Eventos</h1>
+    <div id="contenedor">
+        <button id="boton-saludo">Saludo</button>
+    </div>
+    <script src="eventos.js"></script>
+    <script>
+        function mostrarAlerta() {
+            alert("Hola!");
+        }
+    </script>
 </body>
 </html>
+
